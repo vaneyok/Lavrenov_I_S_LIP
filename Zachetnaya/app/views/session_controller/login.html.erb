@@ -1,0 +1,17 @@
+
+<%= render 'partials/flash' %>
+
+<%= form_tag url_for(controller: :session_controller, action: :create), method: 'post' do %>
+    <form class="form-horizontal" role="form">
+      <div class="form-group">
+        </br></br></br>
+    <%= label_tag 'Email' %>
+    <%= text_field_tag :email, nil, class: 'form-control'%>
+      </br>
+    <%= label_tag 'Password' %>
+    <%= password_field_tag :password, nil, class: 'form-control' %>
+      </div>
+      </br></br>
+    <%= submit_tag 'Log in',class: 'btn btn-success' %>
+    </form>
+<% end %>
