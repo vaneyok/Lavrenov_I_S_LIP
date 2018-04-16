@@ -1,0 +1,135 @@
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-07 13:09:29 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (3.8ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-07 13:10:04 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 10ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-07 13:11:01 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 31ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-11 23:16:03 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-11 23:17:23 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 11ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=xml" for 127.0.0.1 at 2017-12-11 23:17:49 +0300
+Processing by OutputController#index as XML
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 20ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_xml_format
+-------------------------------------------
+Started GET "/?word=3&format=xml" for 127.0.0.1 at 2017-12-11 23:18:32 +0300
+Processing by OutputController#index as XML
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 34ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-11 23:18:32 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-12 22:07:55 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-12 22:08:13 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-12 22:08:27 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 15ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-12 22:08:43 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-12 23:12:06 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 12ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-12 23:22:10 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 12ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+OutputControllerTest: test_check_rss_format
+-------------------------------------------
+Started GET "/?word=3&format=rss" for 127.0.0.1 at 2017-12-12 23:45:37 +0300
+Processing by OutputController#index as RSS
+  Parameters: {"word"=>"3"}
+Completed 200 OK in 31ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m

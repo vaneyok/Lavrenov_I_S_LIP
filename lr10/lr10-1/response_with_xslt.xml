@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xslt"?>
+<objects type="array">
+  <object>
+    <num type="integer">1</num>
+    <elem type="integer">153</elem>
+  </object>
+  <object>
+    <num type="integer">2</num>
+    <elem type="integer">370</elem>
+  </object>
+  <object>
+    <num type="integer">3</num>
+    <elem type="integer">371</elem>
+  </object>
+  <object>
+    <num type="integer">4</num>
+    <elem type="integer">407</elem>
+  </object>
+</objects>
