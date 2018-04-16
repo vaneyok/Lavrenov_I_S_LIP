@@ -1,0 +1,40 @@
+<%= form_with(model: user, local: true) do |form| %>
+  <% if user.errors.any? %>
+    <div id="error_explanation">
+      <div class='alert alert-danger'>
+        The form contains <%= pluralize(user.errors.count, "error") %>
+      
+      <!--h2><%= pluralize(user.errors.count, "error") %> prohibited this user from being saved:</h2-->
+
+      <ul>
+      <% user.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+      </div>
+    </div>
+  <% end %>
+
+<div class="row">
+  <div class="span6 offset3">
+    <%= form_for(@user) do |f| %>
+
+      <%= f.label :username %><br>
+      <%= f.text_field :username %><br>
+
+      <br>
+
+      <%= f.label :password %><br>
+      <%= f.password_field :password %><br>
+
+      <br>
+
+      <%= f.label :password_confirmation, "Confirmation" %><br>
+      <%= f.password_field :password_confirmation %><br>
+
+      <%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
+    <% end %>
+  </div>
+</div>
+
+<% end %>

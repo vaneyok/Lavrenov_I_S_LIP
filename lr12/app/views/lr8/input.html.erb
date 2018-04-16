@@ -1,0 +1,11 @@
+<h1>Число Армстронга</h1>
+<%= form_tag url_for(controller: 'lr8', action: 'output'), method: 'get' do %>
+
+   <%= label_tag  'Введите число' %>
+   <%= text_field_tag :word %>
+
+   <br>
+
+   <%= submit_tag 'Проверить' %>
+
+<% end %>
