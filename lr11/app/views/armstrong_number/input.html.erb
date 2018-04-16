@@ -1,0 +1,16 @@
+<h1>Число Армстронга</h1>
+<%= form_tag url_for(controller: 'armstrong_number', action: 'output'), method: 'get' do %>
+
+   <%= label_tag  'Введите число' %>
+   <%= text_field_tag :input_value %>
+
+   <br>
+
+   <%= submit_tag 'Проверить' %>
+
+<% end %>
+
+<br>
+
+<div><%= @result %></div>
+

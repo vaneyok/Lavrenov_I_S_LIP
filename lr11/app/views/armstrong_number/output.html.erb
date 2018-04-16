@@ -1,0 +1,39 @@
+<!--%= render inline: @flag %-->
+<div> <%= "Результат для '#{@number}':" %> </div>
+
+
+<% if @result[1].to_i == 0 %>
+<div> <%= @result %> </div>
+<% else %>
+<style>
+	table{ width: 300px;
+			border: 2px solid; 
+			text-align: center; }
+	td{border: 1px solid;}
+</style>
+<table >
+	<tr><th >№</th><th >Полученное число</th></tr>
+	<%count = 0%>
+	<% @result.each do |i|%>
+		<tr><td ><%=@result.index(i) + 1%></td><td><%=i.to_s%></td></tr>
+		<%count += 1%>
+	<%end%>
+</table>
+<% end %>
+
+<br/>
+
+<%= form_tag('/armstrong_number/get_last', :method => 'get') do %>
+    <%= submit_tag("Показать последние данные") %>
+<% end %>
+
+<br/>
+
+<%= form_tag('/armstrong_number/result_in_xml', :method => 'get') do %>
+    <%= submit_tag("Вывести в .xml") %>
+<% end %>
+
+
+
+<br/>
+<%= link_to "Повторить вычисление", :root %> 
