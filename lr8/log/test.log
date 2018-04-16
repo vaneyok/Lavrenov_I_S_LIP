@@ -1,0 +1,2394 @@
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 00:57:18 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 187ms (Views: 174.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 00:57:18 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:19:44 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_view_with_1
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:19:44 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 191ms (Views: 189.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_view_with_1
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:20:40 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 136ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:20:40 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (4.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:21:27 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 152ms (Views: 139.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:21:27 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_view_with_1
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_view_with_1
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:25:01 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 183ms (Views: 174.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:25:02 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:26:26 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 145ms (Views: 136.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:26:26 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_view_with_1
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_view_with_1
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:28:28 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 157ms (Views: 146.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:28:28 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:29:12 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 150ms (Views: 144.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:29:12 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:30:38 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 149ms (Views: 139.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:30:38 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:34:06 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 158ms (Views: 145.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:34:06 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:36:01 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:36:01 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 149ms (Views: 148.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:36:37 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 161ms (Views: 155.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:36:37 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:40:15 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 130ms (Views: 124.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:40:15 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:42:05 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 165ms (Views: 151.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:42:05 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:50:52 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 301ms (Views: 286.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:50:53 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:51:18 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 301ms (Views: 290.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:51:19 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:52:12 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 202ms (Views: 190.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:52:12 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 02:55:46 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 02:55:46 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 211ms (Views: 210.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 03:05:07 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 152ms (Views: 146.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 03:05:08 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 03:06:23 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 148ms (Views: 142.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 03:06:23 +0300
+Processing by Lr8Controller#output as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 03:10:20 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 97ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 03:10:20 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (8.9ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 03:14:19 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 160ms (Views: 153.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 03:14:19 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 03:17:20 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 137ms (Views: 131.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 03:17:20 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 03:17:53 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 96ms (Views: 89.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 03:17:53 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.6ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 03:18:24 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 128ms (Views: 121.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 03:18:24 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 03:21:24 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 144ms (Views: 138.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+Started GET "/output" for 127.0.0.1 at 2017-11-20 03:21:24 +0300
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 03:21:24 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 03:26:06 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 144ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 03:26:06 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 03:26:39 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 131ms (Views: 125.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 03:26:40 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 03:28:56 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 105ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 03:28:56 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 03:29:21 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 169ms (Views: 155.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 03:29:21 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (10.2ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 13:54:52 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 152ms (Views: 146.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 13:54:52 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 14:43:01 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 117ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 14:43:01 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 14:44:19 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 150ms (Views: 134.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 14:44:19 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 14:46:30 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 115ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 14:46:30 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (17.3ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 14:48:10 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 14:48:10 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 180ms (Views: 178.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 14:49:29 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 115ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 14:49:29 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (33.3ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 14:50:40 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 89ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 14:50:41 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 14:55:57 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 14:55:57 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 134ms (Views: 133.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (5.3ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 15:15:34 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 146ms (Views: 132.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 15:15:34 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 15:18:11 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 126ms (Views: 120.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 15:18:11 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 15:19:21 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 183ms (Views: 167.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 15:19:22 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 15:20:11 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 141ms (Views: 135.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 15:20:11 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 16:17:48 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 148ms (Views: 141.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 16:17:49 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 16:19:03 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 154ms (Views: 147.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 16:19:03 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 16:28:16 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 118ms (Views: 112.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 16:28:16 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 16:32:56 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 216ms (Views: 202.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 16:32:57 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 16:41:13 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 143ms (Views: 136.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+Started GET "/lr8/input?word=3" for 127.0.0.1 at 2017-11-20 16:41:13 +0300
+Processing by Lr8Controller#input as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 16:41:13 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 16:51:02 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 123ms (Views: 116.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-20 16:51:02 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 16:51:02 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-20 17:02:27 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 95ms (Views: 88.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 17:02:27 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 17:02:28 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 17:11:28 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 153ms (Views: 147.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 17:11:28 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 17:12:04 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 157ms (Views: 140.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 17:12:05 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 17:14:02 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 141ms (Views: 133.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 17:14:18 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 143ms (Views: 133.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 17:14:18 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-20 17:26:26 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 132ms (Views: 124.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 17:26:26 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 17:26:26 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 17:27:04 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 117ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 17:27:04 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_Unknown!_for_incorrect_params
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 17:28:33 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 145ms (Views: 134.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 17:28:33 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-20 17:29:36 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 157ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 17:29:36 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 17:29:36 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-20 19:08:34 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 86ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 19:08:34 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 19:08:34 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 20:29:38 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 121ms (Views: 114.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 20:29:38 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-20 20:29:38 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 20:30:26 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 90ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-20 20:30:26 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 20:30:26 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-20 20:31:13 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 157ms (Views: 151.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 20:31:13 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 20:31:13 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 20:42:12 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 121ms (Views: 104.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 20:42:12 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-20 20:42:12 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 20:43:11 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 130ms (Views: 118.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 20:43:11 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 20:45:07 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 158ms (Views: 149.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 20:45:07 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 20:48:03 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 163ms (Views: 157.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 20:48:04 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 20:50:20 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 105ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-20 20:50:20 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 20:50:20 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 20:50:45 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 108ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-20 20:50:46 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 20:50:46 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-20 20:50:46 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-20 20:55:57 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 106ms (Views: 100.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_all_numbers_for_output_with_1
+----------------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-20 20:55:57 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 20:55:57 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 20:55:57 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-20 20:56:06 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 145ms (Views: 137.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+Lr8ControllerTest: test_should_get_4_numbers_for_input_3
+--------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-20 20:56:06 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-20 20:56:06 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=a" for 127.0.0.1 at 2017-11-20 20:56:06 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"a"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------
+Lr8ControllerTest: test_should_get_message_about_no_numbers
+-----------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-20 20:56:06 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-21 11:38:22 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 118ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+Lr8ControllerTest: test_should_get_4_numbers_for_input_3
+--------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-21 11:38:22 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-21 11:38:22 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=a" for 127.0.0.1 at 2017-11-21 11:38:22 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"a"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------
+Lr8ControllerTest: test_should_get_message_about_no_numbers
+-----------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-21 11:38:22 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-21 11:39:24 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 99ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_empty_params
+-----------------------------------------------------------------
+Started GET "/lr8/output?word=" for 127.0.0.1 at 2017-11-21 11:39:24 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>""}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=a" for 127.0.0.1 at 2017-11-21 11:39:24 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"a"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+Lr8ControllerTest: test_should_get_4_numbers_for_input_3
+--------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-21 11:39:24 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------
+Lr8ControllerTest: test_should_get_message_about_no_numbers
+-----------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-21 11:39:24 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-21 11:39:24 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------
+Lr8ControllerTest: test_should_get_message_about_no_numbers
+-----------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-23 09:45:06 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 135ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+Lr8ControllerTest: test_should_get_4_numbers_for_input_3
+--------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-23 09:45:06 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_empty_params
+-----------------------------------------------------------------
+Started GET "/lr8/output?word=" for 127.0.0.1 at 2017-11-23 09:45:06 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>""}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=a" for 127.0.0.1 at 2017-11-23 09:45:06 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"a"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-23 09:45:06 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-23 09:45:06 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-23 10:00:07 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 99ms (Views: 91.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=a" for 127.0.0.1 at 2017-11-23 10:00:07 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"a"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-23 10:00:07 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+Lr8ControllerTest: test_should_get_4_numbers_for_input_3
+--------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-23 10:00:07 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------
+Lr8ControllerTest: test_should_get_message_about_no_numbers
+-----------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-23 10:00:07 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_empty_params
+-----------------------------------------------------------------
+Started GET "/lr8/output?word=" for 127.0.0.1 at 2017-11-23 10:00:07 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>""}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_empty_params
+-----------------------------------------------------------------
+Started GET "/lr8/output?word=" for 127.0.0.1 at 2017-11-23 10:00:38 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>""}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 147ms (Views: 141.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-23 10:00:38 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------
+Lr8ControllerTest: test_should_get_message_about_no_numbers
+-----------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-23 10:00:38 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+Lr8ControllerTest: test_should_get_4_numbers_for_input_3
+--------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-23 10:00:38 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=a" for 127.0.0.1 at 2017-11-23 10:00:38 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"a"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-23 10:00:38 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-23 10:01:07 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 123ms (Views: 113.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=a" for 127.0.0.1 at 2017-11-23 10:01:08 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"a"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-23 10:01:08 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_empty_params
+-----------------------------------------------------------------
+Started GET "/lr8/output?word=" for 127.0.0.1 at 2017-11-23 10:01:08 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>""}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+Lr8ControllerTest: test_should_get_4_numbers_for_input_3
+--------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-23 10:01:08 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------
+Lr8ControllerTest: test_should_get_message_about_no_numbers
+-----------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-23 10:01:08 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+Lr8ControllerTest: test_should_get_4_numbers_for_input_3
+--------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-23 20:45:19 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 115ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_empty_params
+-----------------------------------------------------------------
+Started GET "/lr8/output?word=" for 127.0.0.1 at 2017-11-23 20:45:20 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>""}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=a" for 127.0.0.1 at 2017-11-23 20:45:20 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"a"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-23 20:45:20 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-23 20:45:20 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------
+Lr8ControllerTest: test_should_get_message_about_no_numbers
+-----------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-23 20:45:20 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=a" for 127.0.0.1 at 2017-11-23 20:46:26 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"a"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 89ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-11-23 20:46:26 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_empty_params
+-----------------------------------------------------------------
+Started GET "/lr8/output?word=" for 127.0.0.1 at 2017-11-23 20:46:26 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>""}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------
+Lr8ControllerTest: test_should_get_message_about_no_numbers
+-----------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-11-23 20:46:26 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-11-23 20:46:26 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+Lr8ControllerTest: test_should_get_4_numbers_for_input_3
+--------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-11-23 20:46:26 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+Lr8ControllerTest: test_should_get_4_numbers_for_input_3
+--------------------------------------------------------
+Started GET "/lr8/output?word=3" for 127.0.0.1 at 2017-12-07 18:00:26 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 125ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------
+Lr8ControllerTest: test_should_get_message_about_no_numbers
+-----------------------------------------------------------
+Started GET "/lr8/output?word=2" for 127.0.0.1 at 2017-12-07 18:00:26 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 20ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr8ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr8/output" for 127.0.0.1 at 2017-12-07 18:00:26 +0300
+Processing by Lr8Controller#output as HTML
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr8/output?word=a" for 127.0.0.1 at 2017-12-07 18:00:26 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>"a"}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr8ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr8/input" for 127.0.0.1 at 2017-12-07 18:00:26 +0300
+Processing by Lr8Controller#input as HTML
+  Rendering lr8/input.html.erb within layouts/application
+  Rendered lr8/input.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------
+Lr8ControllerTest: test_should_get_error_message_for_empty_params
+-----------------------------------------------------------------
+Started GET "/lr8/output?word=" for 127.0.0.1 at 2017-12-07 18:00:26 +0300
+Processing by Lr8Controller#output as HTML
+  Parameters: {"word"=>""}
+  Rendering lr8/output.html.erb within layouts/application
+  Rendered lr8/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
