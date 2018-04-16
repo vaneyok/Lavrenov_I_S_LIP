@@ -1,0 +1,27 @@
+<h1>Lr9#output</h1>
+<p>Find me in app/views/lr9/output.html.erb</p>
+
+<h3>Результат</h3>
+<% if @result != :ok%> <%= t "results.#{@result}", :number => @number %>
+<%else%>
+<style>
+	table{ width: 300px;
+			border: 2px solid; 
+			text-align: center; }
+	td{border: 1px solid;}
+</style>
+
+<table >
+	<tr><th >Номер</th><th >Полученное число</th></tr>
+	<%count = 0%>
+	<%@numbers.each do |i|%>
+		<tr><td ><%=@numbers.index(i) + 1%></td><td><%=i.to_s%></td></tr>
+		<%count += 1%>
+	<%end%>
+</table>
+<p><%="Количество чисел Армстронга для чисел с #{@result[0].to_s.length} цифрами(-ой): #{count}"%> </p>
+
+
+<%end%>
+<br/>
+<%= link_to "Повторить вычисление", :lr9_input %> 

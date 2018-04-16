@@ -1,0 +1,20 @@
+<h1>Lr9#input</h1>
+<p>Find me in app/views/lr9/input.html.erb</p>
+
+<h3>Число Армстронга</h3>
+<%= form_tag('/lr9/output.json', :method => 'get',remote: true, id: 'lr9_form') do %>
+
+   <%= label_tag  'Введите число' %>
+   <%= text_field_tag :word %>
+
+   <br>
+
+   <!--%= submit_tag 'Проверить' %-->
+   <!--%= submit_tag 'Проверить', id: "check", :onclick => "return check()"%-->
+   <%= submit_tag 'Проверить'%>
+   <!--input name="commit" type="submit"  
+     value="Проверить" onclick="return send_query();" /--> 
+
+<% end %>
+<br>
+<div id = 'result'></div> 

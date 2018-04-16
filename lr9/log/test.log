@@ -1,0 +1,128 @@
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------
+Lr9ControllerTest: test_should_get_error_message_for_empty_params
+-----------------------------------------------------------------
+Started GET "/lr9/output?word=" for 127.0.0.1 at 2017-12-01 11:48:46 +0300
+Processing by Lr9Controller#output as HTML
+  Parameters: {"word"=>""}
+  Rendering lr9/output.html.erb within layouts/application
+  Rendered lr9/output.html.erb within layouts/application (36.3ms)
+Completed 200 OK in 465ms (Views: 458.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr9ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr9/input" for 127.0.0.1 at 2017-12-01 11:48:47 +0300
+Processing by Lr9Controller#input as HTML
+  Rendering lr9/input.html.erb within layouts/application
+  Rendered lr9/input.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr9ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr9/output?word=a" for 127.0.0.1 at 2017-12-01 11:48:47 +0300
+Processing by Lr9Controller#output as HTML
+  Parameters: {"word"=>"a"}
+  Rendering lr9/output.html.erb within layouts/application
+  Rendered lr9/output.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------
+Lr9ControllerTest: test_should_get_message_about_no_numbers
+-----------------------------------------------------------
+Started GET "/lr9/output?word=2" for 127.0.0.1 at 2017-12-01 11:48:47 +0300
+Processing by Lr9Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr9/output.html.erb within layouts/application
+  Rendered lr9/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr9ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr9/output" for 127.0.0.1 at 2017-12-01 11:48:47 +0300
+Processing by Lr9Controller#output as HTML
+  Rendering lr9/output.html.erb within layouts/application
+  Rendered lr9/output.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+Lr9ControllerTest: test_should_get_4_numbers_for_input_3
+--------------------------------------------------------
+Started GET "/lr9/output?word=3" for 127.0.0.1 at 2017-12-01 11:48:47 +0300
+Processing by Lr9Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr9/output.html.erb within layouts/application
+  Rendered lr9/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+Lr9ControllerTest: test_should_get_4_numbers_for_input_3
+--------------------------------------------------------
+Started GET "/lr9/output?word=3" for 127.0.0.1 at 2017-12-01 11:49:34 +0300
+Processing by Lr9Controller#output as HTML
+  Parameters: {"word"=>"3"}
+  Rendering lr9/output.html.erb within layouts/application
+  Rendered lr9/output.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 94ms (Views: 88.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------
+Lr9ControllerTest: test_should_get_error_message_for_empty_params
+-----------------------------------------------------------------
+Started GET "/lr9/output?word=" for 127.0.0.1 at 2017-12-01 11:49:34 +0300
+Processing by Lr9Controller#output as HTML
+  Parameters: {"word"=>""}
+  Rendering lr9/output.html.erb within layouts/application
+  Rendered lr9/output.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+---------------------------------------------------------------------
+Lr9ControllerTest: test_should_get_error_message_for_incorrect_params
+---------------------------------------------------------------------
+Started GET "/lr9/output?word=a" for 127.0.0.1 at 2017-12-01 11:49:34 +0300
+Processing by Lr9Controller#output as HTML
+  Parameters: {"word"=>"a"}
+  Rendering lr9/output.html.erb within layouts/application
+  Rendered lr9/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------
+Lr9ControllerTest: test_should_get_message_about_no_numbers
+-----------------------------------------------------------
+Started GET "/lr9/output?word=2" for 127.0.0.1 at 2017-12-01 11:49:34 +0300
+Processing by Lr9Controller#output as HTML
+  Parameters: {"word"=>"2"}
+  Rendering lr9/output.html.erb within layouts/application
+  Rendered lr9/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+Lr9ControllerTest: test_should_get_input
+----------------------------------------
+Started GET "/lr9/input" for 127.0.0.1 at 2017-12-01 11:49:34 +0300
+Processing by Lr9Controller#input as HTML
+  Rendering lr9/input.html.erb within layouts/application
+  Rendered lr9/input.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+Lr9ControllerTest: test_should_get_output
+-----------------------------------------
+Started GET "/lr9/output" for 127.0.0.1 at 2017-12-01 11:49:34 +0300
+Processing by Lr9Controller#output as HTML
+  Rendering lr9/output.html.erb within layouts/application
+  Rendered lr9/output.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
