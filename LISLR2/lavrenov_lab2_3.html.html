@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>example3</title>
+	<style>
+	a:link{
+	border:1px solid #0C090A;
+	background-color: #E5E4E2;
+	color: #0C090A;
+	}
+	a:visited{
+	border:1px solid #0C090A;
+	background-color: #E5E4E2;
+	color: #0C090A;
+	}
+	a:hover{
+	border:1px solid #0C090A;
+	background-color: #B6B6B4;
+	color: #0C090A;
+	}
+	a:active{
+	border:1px solid #0C090A;
+	background-color: #736F6E;
+	}
+	</style>
+	<meta charset="utf-8"/>
+</head>
+
+<body>
+	<form action="" method="get" id="formid">
+		Имя:<br>
+		<input type="text" name="fname"/> <br>
+		Фамилия:<br>
+		<input type="text" name="lname"/><br>
+<label>	Пол: <input type="radio" name="gender" value="м"/>м
+		<input type="radio" name="gender" value="ж"/>ж<br>
+</label>
+		<input type="submit" value="Отправить" id="subm"/>
+		<button type="reset" onclick="reset" id="res">Очистить</button>
+		<button type="button" onclick="alert('This is example3.html')">Вывести</button>
+	</form>
+	<br>
+	<a href=# onclick="document.getElementById('formid').submit()">Отправить</a>
+	<a href="" onclick="reset">Очистить</a>
+	<a href="" onclick="alert('This is example3.html')">Вывести</a>
+</body>
+</html>

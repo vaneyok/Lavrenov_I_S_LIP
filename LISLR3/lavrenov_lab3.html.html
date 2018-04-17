@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LISLR3</title>
+	<style>
+	a:link{
+	border:0.5px solid #0C090A;
+	background-color: #E5E4E2;
+	color: #0C090A;
+	}
+	a:visited{
+	border:0.5px solid #0C090A;
+	background-color: #E5E4E2;
+	color: #0C090A;
+	}
+	a:hover{
+	border:0.5px solid #0C090A;
+	background-color: #B6B6B4;
+	color: #0C090A;
+	}
+	a:active{
+	border:0.5px solid #0C090A;
+	background-color: #736F6E;
+	}
+	</style>
+	<meta charset="utf-8"/>
+</head>
+
+<body>
+	<form action="" method="get" id="formid">
+		Имя:<br>
+		<input type="text" name="fname"/> <br>
+		Фамилия:<br>
+		<input type="text" name="lname"/><br>
+<label>	Пол: <input type="radio" name="gender" value="м"/>м
+		<input type="radio" name="gender" value="ж"/>ж<br>
+</label>
+		<input type="submit" value="Отправить" id="subm"/>
+		<button type="reset" onclick="reset" id="res">Очистить</button>
+		<button type="button" onclick="alert('This is example3.html')">Вывести</button>
+	</form>
+	<br>
+	<a href=# onclick="document.getElementById('formid').submit()">Отправить</a>
+	<a href="" onclick="reset">Очистить</a>
+	<a href="" onclick="alert('This is example3.html')">Вывести</a>
+	
+	
+	<div id="Result"></div>
+	<script type="text/javascript">
+		var main=document.getElementsByTagName("body")[0];
+		var Result=document.getElementById("Result");
+		var cnt=0;
+		function GetTag(e,cnt) {
+			var treeEl=e.tagName+"<br/>";
+			for (var i=0; i<e.children.length;i++) {
+				for (var cnt2=0;cnt2<cnt;cnt2++) {
+					treeEl+="&nbsp&nbsp";
+				}
+				treeEl+=GetTag(e.children[i],cnt+4);
+			}
+			return treeEl;
+		}
+		Result.innerHTML=GetTag(main,0);
+	</script>
+</body>
+</html>
